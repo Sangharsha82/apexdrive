@@ -4,12 +4,7 @@
 // import Audi from "../assets/icons/audi.svg";
 
 export const categoriesData = [
-  {
-    _id:1 ,
-    name: "All",
-    path: "all",
-    
-  },
+ 
   {
     _id: 2,
     name: "Ferrari",
@@ -42,7 +37,7 @@ export const categoriesData = [
     _id: 6,
     name: "Honda",
     path: "Honda",
-    // image: require("../assets/icons/honda.png"),
+    image: require("../assets/icons/honda.png"),
   },
   {
     _id: 7,

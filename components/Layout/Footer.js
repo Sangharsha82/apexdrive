@@ -3,7 +3,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <View>
+    <View style={{height:50, backgroundColor:"#09006A"}}>
+      <Text>Footr</Text>
       <Text>Footer</Text>
     </View>
   )

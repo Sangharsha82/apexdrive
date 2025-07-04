@@ -1,18 +1,16 @@
-import { View, Text,StyleSheet, StatusBar } from 'react-native'
-import React from 'react'
-import Header from './Header';
-import Footer from './Footer';
+import { View, Text, StyleSheet, StatusBar } from "react-native";
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-    <StatusBar/>
-    <Header/>
-    <View>
-        {children}
-    </View>
-    <Footer/>
+      <StatusBar />
+      <Header />
+      <View style={{ flex: 1 }}>{children}</View>
+      <Footer />
     </>
   );
 };
-export default Layout
+export default Layout;

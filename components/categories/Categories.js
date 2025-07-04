@@ -32,11 +32,13 @@ const Categories = () => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
+    backgroundColor: "rgb(185, 185, 185)",
+  
   },
   catContainer: {
     padding: 10,
     margin: 5,
-    backgroundColor: "#f0f0f0",
+    
     borderRadius: 5,
     alignItems: "center",
   },

@@ -1,0 +1,58 @@
+export const ProductData = [
+  {
+    _id: 1,
+    name: "Ferrari 499P",
+    brand: "Ferrari",
+    price: 750,
+    image: require("../assets/images/ferrari499p.png"),
+  },
+  {
+    _id: 2,
+    name: "Porsche 911 GT3",
+    brand: "Porsche",
+    price: 1050,
+    image: require("../assets/images/porsche911.png"),
+  },
+  {
+    _id: 3,
+    name: "Audi R8",
+    brand: "Audi",
+    price: 650,
+    image: require("../assets/images/audir8.png"),
+  },
+  {
+    _id: 4,
+    name: "BMW M5",
+    brand: "BMW",
+    price: 850,
+    image: require("../assets/images/bmwm5.png"),
+  },
+  {
+    _id: 5,
+    name: "Honda Civic Type R",
+    brand: "Honda",
+    price: 650,
+    image: require("../assets/images/civic.png"),
+  },
+  {
+    _id: 6,
+    name: "Toyota Supra",
+    brand: "Toyota",
+    price: 990,
+    image: require("../assets/images/supra.png"),
+  },
+  {
+    _id: 7,
+    name: "Mercedes AMG GT",
+    brand: "Mercedes",
+    price: 1150,
+    image: require("../assets/images/mercedesamg.png"),
+  },
+  {
+    _id: 8,
+    name: "Lamborghini Huracan",
+    brand: "Lamborghini",
+    price: 550,
+    image: require("../assets/images/huracan.png"),
+  },
+];

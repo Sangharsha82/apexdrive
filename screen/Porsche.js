@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Ferrari = () => {
+const Porsche = () => {
   return (
     <View>
-      <Text>Ferrari</Text>
+      <Text>Porsche</Text>
     </View>
   );
 };
 
-export default Ferrari;
+export default Porsche;
