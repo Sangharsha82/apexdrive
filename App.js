@@ -3,7 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./screen/home";
-import About from "./screen/about";
+import About from "./screen/Cart";
+import Cart from "./screen/Cart";
 import Ferrari from "./screen/Ferrari";
 import Porsche from "./screen/Porsche";
 import Audi from "./screen/Audi";
@@ -23,11 +24,8 @@ export default function App() {
           component={Home}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="about"
-          component={About}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="Cart" component={Cart} />
+
         <Stack.Screen name="Ferrari" component={Ferrari} />
         <Stack.Screen name="Porsche" component={Porsche} />
         <Stack.Screen name="Audi" component={Audi} />

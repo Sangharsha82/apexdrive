@@ -33,6 +33,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     backgroundColor: "rgb(185, 185, 185)",
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10,
   
   },
   catContainer: {

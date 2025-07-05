@@ -17,7 +17,7 @@ const Header = () => {
     setSearchText("");
   };
   return (
-    <View style={{ height: 80 }}>
+    <View style={{ height: 80 , backgroundColor: "rgb(185, 185, 185)",}}>
       <View style={styles.container}>
         <TextInput
           style={styles.inputbox}
@@ -39,7 +39,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: 15,
-    backgroundColor:"#6A381F",
+    backgroundColor:"#2e8b57",
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10,
   },
 
   inputbox: {
